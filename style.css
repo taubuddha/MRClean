@@ -26,13 +26,14 @@ header {
 .carousel {
   display: flex;
   overflow-x: scroll;
-  gap: 10px;
+  gap: 10px; /* Adds space between carousel items */
   padding: 10px 0;
 }
 
 .carousel-item {
   flex: 0 0 auto;
   width: 300px;
+  margin: 0 10px; /* Adds space around each carousel item */
 }
 
 .carousel-item img {
